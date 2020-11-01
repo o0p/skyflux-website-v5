@@ -43,6 +43,13 @@ img {
     width: 100%;
 }
 
+code, pre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 1px;
+}
+
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
@@ -193,7 +200,7 @@ img {
     width: 300px;
     justify-self: flex-end;
 } 
-
+.docs-head img,
 .features-head img {
     width: 200px;
     justify-self: flex-end;
@@ -215,7 +222,25 @@ img {
 }
 
 /* Docs */
+.docs-main h3 {
+    margin: 20px 0px;
+}
 
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr ;
+    align-items: flex-start;
+}
+
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
+}
 
 /* Footer */
 .footer .social a {
