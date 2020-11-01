@@ -87,6 +87,7 @@ img {
 
 .showcase .grid {
     grid-template-columns: 55% 45%;
+    gap: 30px;
 }
 
 /* Utilities */
@@ -95,6 +96,14 @@ img {
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.card {
+    background-color: #fbfbfd;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 10px;
 }
 
 .flex {
